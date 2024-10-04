@@ -1,5 +1,17 @@
 .lw { font-size: 60px; }
 article p:first-child {
     font-size: 120%;
+    font-weight: bold;} 
+    a:link,
+a:visited {
+    color: rgb(24, 229, 181);
+    font-weight: bold;
+}
+
+a:hover {
+    color:rgb(255, 206, 10);
+}   
+article p::first-line {
+    font-size: 120%;
     font-weight: bold;
 } 
